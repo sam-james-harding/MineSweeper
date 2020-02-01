@@ -207,7 +207,6 @@ class game():
                                         if tile.rec.collidepoint(a,b):
                                                 tile.flag()
                                                 break
-                pressed = pygame.key.get_pressed()
 
         # updates objects
         def Update(self):
