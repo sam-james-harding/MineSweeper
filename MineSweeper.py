@@ -9,7 +9,7 @@ tiles_x = 10 # number of tiles horizontally
 tiles_y = 8 # number of tiles vertically
 mine_no = 10 # number of mines on board
         # colours
-base_colour1, base_colour2 = (75,82,251), (45,62,251) # colours for uncleared tiles
+base_colour1, base_colour2 = (75,82,251), (45,62,250) # colours for uncleared tiles
 cleared_colour = (109, 242, 46) # colour for non_mined, cleared tiles
 text_colour = (255,70,70) # colour for tile numbers
 
