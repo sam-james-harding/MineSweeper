@@ -16,6 +16,7 @@ text_colour = (255,70,70) # colour for tile numbers
 # setup
 pygame.init()
 pygame.font.init()
+pygame.mixer.init()
 myfont = pygame.font.SysFont(None, 60)
 screenx = 50*tiles_x
 screeny = 50*tiles_y
