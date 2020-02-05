@@ -2,7 +2,7 @@
 import pygame
 import random
 import datetime
-import os
+import os; work_dir = os.path.dirname(__file__) + '/'
 
 # options
 name = 'MineSweeper' # window title
@@ -26,10 +26,10 @@ pygame.display.set_caption(name)
 clock = pygame.time.Clock()
 
 # resources
-boom = pygame.mixer.Sound(os.path.dirname(__file__) + '/' +'Resources/boom.wav')
-ding = pygame.mixer.Sound(os.path.dirname(__file__) + '/' +'Resources/ding.wav')
-dead_face = pygame.transform.scale(pygame.image.load(os.path.dirname(__file__) + '/' +'Resources/dead.png'), (200,200))
-win_face = pygame.transform.scale(pygame.image.load(os.path.dirname(__file__) + '/' +'Resources/win.png'), (200,200))
+boom = pygame.mixer.Sound(work_dir +'Resources/boom.wav')
+ding = pygame.mixer.Sound(work_dir +'Resources/ding.wav')
+dead_face = pygame.transform.scale(pygame.image.load(work_dir +'Resources/dead.png'), (200,200))
+win_face = pygame.transform.scale(pygame.image.load(work_dir +'Resources/win.png'), (200,200))
 
 # classes
 class Tile():
